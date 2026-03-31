@@ -1,67 +1,90 @@
-# Open Source Audit Project
+# Open Source Audit - Git
 
 ## Student Details
-- Name: Ishank Mittal
-- Registration Number: 24bai10171
-- Chosen Software: **Git**
-  
-## Git
-Git is a distributed version control system that enables developers to track changes and collaborate efficiently.
 
-## Project Description
-This project is all about understanding open-source software—what it stands for, how it works in a Linux environment, and the ecosystem built around it. It also looks at how open-source solutions compare with proprietary software in real-world use.
+Name: Yathartha Rastogi
 
-Along with the theoretical part, the project includes five shell scripts that demonstrate practical command-line usage and simple automation tasks in Linux.
+Registration Number: 24BCE10410
 
-## Scripts Overview
+Course: Open Source Software
 
-This project includes five shell scripts that demonstrate basic system operations and automation using Git Bash. Each script focuses on a different concept of shell scripting and Linux commands.
+## Chosen Software
 
-### script1.sh — System Identity Report
-This script displays important system information such as the kernel version, current user, date and time, and system details. It uses basic commands and also handles cases where some information is not available in Git Bash.
+**Git**
 
-### script2.sh — Package Inspector
-This script checks whether Git is installed on the system. If found, it displays the version of Git and prints a short description using a case statement. It demonstrates how to verify software installation using command-line tools.
+Git functions as a distributed version control system which enables developers to monitor source code modifications and work together on projects. The software development industry extensively uses this tool which serves as a crucial component of the open-source development ecosystem.
+## Project Contents
 
-### script3.sh — Disk and Permission Auditor
-This script goes through a list of system directories and shows their size and permissions. It uses a loop to check each directory and handles cases where a directory may not exist in the current environment.
+This repository includes:
 
-### script4.sh — Log File Analyzer
-This script reads a file line by line and counts how many times a given keyword appears in it. It also prints the last few matching lines, which helps in quickly identifying important information from logs or files.
+* Project report in PDF format
+* Five shell script files (.sh)
+* This README file
 
-### script5.sh — Manifesto Generator
-This script takes input from the user and generates a simple open-source manifesto. The output is saved into a text file. It demonstrates user input handling and file writing in shell scripting.
+## Description of Scripts
 
-## How to Run Scripts (Using Git Bash)
+Script 1 - System Identity Report
 
-### Step 1: Open Git Bash
-Right-click inside the project folder and select:
-`Git Bash Here`
+This script reflects some necessary quartz-system information, such as the kernel version, user name, enough about operating systems, uptime, and the present time and date.
 
-### Step 2: Give execute permission
-Run the following commands:
+Script 2 - FOSS Package Inspector
 
-```bash
-chmod +x script1.sh
-chmod +x script2.sh
-chmod +x script3.sh
-chmod +x script4.sh
-chmod +x script5.sh
-```
+The script verifies the installation status of Git on the system. It displays the installed version of the software package through a case statement which shows an additional brief description.
 
-### Step 3: Run scripts
-```
-./script1.sh
-```
-```
-./script2.sh
-```
-```
-./script3.sh
-```
-```
-./script4.sh script1.sh echo
-```
-```
-./script5.sh
-```
+Script 3 - Disk and Permission Auditor
+
+This script deeply checks important directories for system resources, displaying permissions and sizes, while simultaneously verifying the presence of Git configuration files.
+
+Script 4 - Log File Analyzer
+
+The script reads a log file and matches a certain keyword in counting. It also displays the last five lines that have matched.
+
+Script 5 - Open Source Manifesto Generator
+
+This program is capable of taking some user input and subsequently producing a short freely available manifesto saved as a text file.
+
+## How to Run the Scripts
+
+### On Windows (Git Bash)
+
+1. Install Git which includes Git Bash
+2. Open Git Bash
+3. Navigate to the folder containing scripts:
+
+   ```bash
+   cd path/to/scripts
+   ```
+4. Give execution permission:
+
+   ```bash
+   chmod +x script1.sh
+   ```
+5. Run the script:
+
+   ```bash
+   ./script1.sh
+   ```
+
+### On Linux
+
+1. Open terminal
+2. Navigate to the script folder
+3. Run:
+
+   ```bash
+   chmod +x script1.sh
+   ./script1.sh
+   ```
+
+## Dependencies
+
+* Git Bash (for Windows) or Linux terminal
+* Basic Linux commands such as grep, awk, du
+
+## Objective
+
+The project aims to achieve three goals which include understanding open-source software, conducting an in-depth study of Git software and acquiring hands-on experience with Linux operating system and shell scripting.
+
+## Conclusion
+
+Git functions as an open-source tool which enables users to track changes in their work while enabling people to work together. The project provided knowledge about open-source tools through its theoretical concepts and practical applications.
